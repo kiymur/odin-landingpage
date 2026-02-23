@@ -84,3 +84,41 @@ a {
     border: black;
     background: grey;
 }
+
+.second {
+    text-align: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.text {
+    font-size: 16px;
+    color:#1F2937;
+    text-align: center;
+}
