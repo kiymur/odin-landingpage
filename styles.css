@@ -181,3 +181,10 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.footer {
+    background: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+    padding: 50px;
+}
