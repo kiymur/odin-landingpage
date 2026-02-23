@@ -6,6 +6,19 @@ body {
     flex-direction: column;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color:#E5E7EB
+}
+
 .first {
     background: #1F2937;
     display: flex;
@@ -62,19 +75,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 16px;
-}
-
-a {
-    text-decoration: none;
-    color:#E5E7EB
 }
 
 .intro-img {
