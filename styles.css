@@ -5,3 +5,82 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.first {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px 40px 120px;
+}
+
+.logo {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.intro {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 40px 120px 100px 120px;
+}
+
+.intro-left {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    width: 460px;
+}
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.intro-button {
+    background: #3882F6;
+    color:#F9FAF8;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color:#F9FAF8
+}
+
+.intro-img {
+    width: 600px;
+    height: 250px;
+    border: black;
+    background: grey;
+}
